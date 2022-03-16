@@ -1,0 +1,69 @@
+#total_div {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+#result {
+    margin-left:7%;
+}
+table {
+    width: 105%;
+}
+#total_input_div {
+    margin-left: 3%;
+    margin-right: -30px;
+}
+.input_data {
+    display: flex;
+}
+.input_title {
+    border: 1px solid rgb(150,167,197);
+    background-color: rgb(242,242,242);
+    text-align: right;
+    font-size: 14px;
+    padding: 7px;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+#rm_type_code_input {
+    background-color: rgb(242,242,242);
+    border: 1px solid rgb(150,167,197);
+}
+select {
+    background-color: rgb(242,242,242);
+    border: 1px solid rgb(150,167,197);
+    margin-bottom: 5px;
+
+}
+#workplace {
+    width: 40%;
+}
+input {
+    border: 1px solid rgb(150,167,197);
+    margin-bottom: 5px;
+}
+#rm_view_title {
+    border-right: 0;
+    width: 15%;
+}
+#rm_view_content {
+    margin-left: 2px;
+    width: 19.5%;
+}
+#P {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(150,167,197);
+    padding: 6px;
+    height: 37px;
+    width: 30px;
+}
+.text_input_class {
+    width: 40%;
+}
+.select_radio_label {
+    margin-left: 8px;
+}

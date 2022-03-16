@@ -1,0 +1,26 @@
+#result_div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+table {
+    width: 93%;
+}
+tr>th {
+    border: 1px solid gray;
+    background-color: lightgray;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+tr>td {
+    border: 1px solid gray;
+    height: 30px;
+    padding: 5px;
+}
+.align_center {
+    text-align: center;
+}
+.align_right {
+    text-align: right;
+}
