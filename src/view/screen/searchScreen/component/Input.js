@@ -37,15 +37,15 @@ const Input = () => {
                                     <span className="t">
                                         <input type="radio" name="isYesOrNo" value="Yes"
                                                defaultChecked/>
-                                        <label htmlFor="Yes">Yes</label>
+                                        <label htmlFor="Yes" className="radio_label">Yes</label>
                                     </span>
                                     <span className="t">
                                         <input type="radio" name="isYesOrNo" value="No"/>
-                                        <label htmlFor="No">No</label>
+                                        <label htmlFor="No" className="radio_label">No</label>
                                     </span>
                                     <span className="t">
                                         <input type="radio" name="isYesOrNo" value="All"/>
-                                        <label htmlFor="All">All</label>
+                                        <label htmlFor="All" className="radio_label">All</label>
                                     </span>
                                 </div>
                             </div>

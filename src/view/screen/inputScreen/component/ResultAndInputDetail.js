@@ -264,7 +264,7 @@ const ResultAndInputDetail = () => {
                 </div>
                 <div id="total_input_div">
                     <div className="input_data">
-                        <div className="input_title"><span id="red_star">* </span>Biz</div>
+                        <div className="input_title" id="biz"><span id="red_star">* </span>Biz</div>
                         <select name="workplace" id="workplace">
                             <option value="null">로그인 사업장</option>
                             <option value="test1">test1</option>

@@ -4,20 +4,21 @@ const Result = () => {
     return (
         <>
             <div id="result_div">
-                <table>
-                    <thead>
-                       <tr>
-                           <th>Rm Type Code</th>
-                           <th>Rm Type Name(Kor)</th>
-                           <th>Rm Type Name(Eng)</th>
-                           <th>Rm Type Name(Oth)</th>
-                           <th>Rm View</th>
-                           <th>Rms</th>
-                           <th>Rack Rate</th>
-                           <th>Active</th>
-                       </tr>
-                    </thead>
-                    <tbody>
+                <div id="table_div">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Rm Type Code</th>
+                            <th>Rm Type Name(Kor)</th>
+                            <th>Rm Type Name(Eng)</th>
+                            <th>Rm Type Name(Oth)</th>
+                            <th>Rm View</th>
+                            <th>Rms</th>
+                            <th>Rack Rate</th>
+                            <th>Active</th>
+                        </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td className="align_center">SDB</td>
                             <td>슈페리어 더블</td>
@@ -98,15 +99,6 @@ const Result = () => {
                             <td className="align_right"></td>
                             <td className="align_center"></td>
                         </tr>
-                        <tr><td className="align_center"></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align_center"></td>
-                            <td className="align_right"></td>
-                            <td className="align_right"></td>
-                            <td className="align_center"></td>
-                        </tr>
                         <tr>
                             <td className="align_center"></td>
                             <td></td>
@@ -257,8 +249,20 @@ const Result = () => {
                             <td className="align_right"></td>
                             <td className="align_center"></td>
                         </tr>
-                    </tbody>
-                </table>
+                        <tr>
+                            <td className="align_center"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align_center"></td>
+                            <td className="align_right"></td>
+                            <td className="align_right"></td>
+                            <td className="align_center"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
             </div>
         </>
     )

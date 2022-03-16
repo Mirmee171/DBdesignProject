@@ -27,6 +27,10 @@ table {
     margin-bottom: 5px;
 
 }
+#biz {
+    height: 37px;
+    width: 33%;
+}
 #rm_type_code_input {
     background-color: rgb(242,242,242);
     border: 1px solid rgb(150,167,197);
@@ -39,6 +43,7 @@ select {
 }
 #workplace {
     width: 40%;
+    height: 37px;
 }
 input {
     border: 1px solid rgb(150,167,197);

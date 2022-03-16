@@ -43,6 +43,10 @@
     display: flex;
     align-items: center;
 }
+.radio_label {
+    margin-top: 5px;
+    margin-left: 8px;
+}
 #is_used {
     border: 1px solid rgb(150,167,197);
     background-color: rgb(242,242,242);

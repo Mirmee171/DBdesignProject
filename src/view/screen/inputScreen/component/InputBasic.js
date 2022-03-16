@@ -33,7 +33,7 @@ const InputBasic = () => {
                                 <div id="is_used">
                                     사용 여부
                                 </div>
-                                <div>
+                                <div id="is_used_radio">
                                     <span className="t">
                                         <input type="radio" name="isYesOrNo" value="Yes"
                                                defaultChecked/>

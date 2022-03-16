@@ -6,7 +6,12 @@ import SearchScreen from "./view/screen/searchScreen/SearchScreen";
 import InputScreen from "./view/screen/inputScreen/InputScreen";
 
 const App = () => {
-  return <InputScreen/>
+  return (
+      <>
+        <SearchScreen/>
+        <InputScreen/>
+      </>
+  )
 }
 
 export default App;
